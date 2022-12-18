@@ -1,6 +1,6 @@
 {
   "name": "@tencent/tds-vue-plugin-demo-plugin",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "scripts": {
     "dev": "run-p dev:code dev:type",
     "dev:code": "vite build --watch",
@@ -14,7 +14,6 @@
     "vue": "^3.1.5",
     "vue-router": "^4.0.11"
   },
-  "dependencies": {},
   "devDependencies": {
     "@tencent/tds-vue-core": "^0.4.3",
     "@types/lodash-es": "^4.17.6",

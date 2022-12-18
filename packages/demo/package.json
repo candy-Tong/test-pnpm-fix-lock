@@ -1,6 +1,6 @@
 {
   "name": "monorepo-template-ts-demo",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "dev": "run-p dev:code dev:type",
     "dev:code": "vite build --watch",
@@ -8,13 +8,11 @@
     "build:type": "tsc --declaration --emitDeclarationOnly --outDir typings",
     "build": "npm run build:type && vite build"
   },
-  "peerDependencies": {},
-  "dependencies": {},
   "devDependencies": {
+    "conventional-changelog": "^3.1.25",
     "typescript": "^4.4.3",
     "vite": "^2.7.1",
-    "vue-tsc": "^0.29.8",
-    "conventional-changelog": "^3.1.25"
+    "vue-tsc": "^0.29.8"
   },
   "description": "<p style=\"display:flex; justify-content: center\">",
   "main": "./dist/index.umd.js",
