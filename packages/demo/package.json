@@ -6,9 +6,7 @@
     "dev:code": "vite build --watch",
     "dev:type": "npm run build:type -- --watch",
     "build:type": "tsc --declaration --emitDeclarationOnly --outDir typings",
-    "build": "npm run build:type && vite build",
-    "release": "esno ../../scripts/release.ts",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package demo"
+    "build": "npm run build:type && vite build"
   },
   "peerDependencies": {},
   "dependencies": {},

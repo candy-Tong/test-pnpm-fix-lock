@@ -6,9 +6,7 @@
     "dev:code": "vite build --watch",
     "dev:type": "npm run build:type -- --watch",
     "build:type": "tsc --declaration --emitDeclarationOnly --outDir typings",
-    "build": "npm run build:type && vite build",
-    "release": "esno ../../scripts/release.ts",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s  --commit-path . --lerna-package power"
+    "build": "npm run build:type && vite build"
   },
   "peerDependencies": {
     "@tencent/tds-vue-core": ">=0.4.3",
