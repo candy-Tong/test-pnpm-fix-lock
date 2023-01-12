@@ -1,1 +1,4 @@
-一个 monorepo template
+```shell
+pnpm i
+pnpm run bootstrap
+```
